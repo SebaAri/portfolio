@@ -1,25 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 html {
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-family: sans-serif, Arial, Helvetica;
     font-size: 16px;
 }
+.header .nav {
+   margin: 0 auto;
+   width: 50%;
+   background-color: rgba(0,63,71,0.8);
+   padding: 20px;
+}
 .header .nav ul {
     list-style: none;
     
 }
+.header .nav ul li {
+    margin: 3%;
+    display: inline-block;
+
+}
 .nav ul li a{
-   display: block;
+  
    text-decoration: none;
    color: white;
-   text-align: left;
    font-size: 1rem;
   
-}
-.header .nav {
-    margin: 0 auto;
-    width: 100%;
 }
 * {
     box-sizing: inherit;
@@ -34,7 +41,6 @@ html {
     background-position: center bottom;
     background-blend-mode: multiply;
     background-size: cover;
-    display: flex;
     justify-content: center;
     align-items: center;
     background-attachment: fixed;
