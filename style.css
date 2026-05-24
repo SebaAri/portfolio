@@ -6,27 +6,43 @@ html {
     font-family: sans-serif, Arial, Helvetica;
     font-size: 16px;
 }
+.header .header-title {
+    position: absolute;
+    top: 50px;
+    color: white;
+    left: 80px;
+    font-family: 'Righteous', cursive;
+    font-size: 2em;
+}
 .header .nav {
    margin: 0 auto;
-   width: 50%;
-   background-color: rgba(0,63,71,0.8);
-   padding: 20px;
+   width: 60%;
+  
+   padding: 30px;
+   position: absolute;
+   right: 0;
+   top: 30px;
+   border-bottom-left-radius: 30px;
 }
 .header .nav ul {
     list-style: none;
     
 }
 .header .nav ul li {
-    margin: 3%;
     display: inline-block;
+    margin-right: 10%;
 
 }
+
 .nav ul li a{
-  
    text-decoration: none;
-   color: white;
+   color: rgb(184,184,184);
    font-size: 1rem;
   
+}
+.nav ul li a:hover {
+    color: white;
+    font-weight: 700;
 }
 * {
     box-sizing: inherit;
@@ -41,9 +57,9 @@ html {
     background-position: center bottom;
     background-blend-mode: multiply;
     background-size: cover;
-    justify-content: center;
-    align-items: center;
     background-attachment: fixed;
+    border: 2px solid red;
+    /*position: relative;*/
 }
 body {
     width: 100%;
