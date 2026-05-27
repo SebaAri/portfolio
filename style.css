@@ -167,19 +167,22 @@ body {
     border-radius: 10px;
 }
 .header .headers_networks {
-    position: absolute;
-    top: 30%;
+    position: fixed;
+    top: 130px;
     right: 0;
     width: 60px;
+    height: auto;
     border: 1px solid white;
     padding: 10px;
     border-radius: 8px 0 0 8px;
     background-color: rgba(0,63,71,0.8);
     backdrop-filter: blur(6px);
+    box-shadow: 3px 5px 10px #ccc;
+    z-index: 1000;
 }
 
 .header .headers_networks a i{
-    margin-bottom: 30px;
+    margin-bottom: 33px;
     color: white;
     font-size: 1.6em;
 }
